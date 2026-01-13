@@ -430,12 +430,7 @@ const App: React.FC = () => {
           EL <span className="text-gold-gradient font-black">CÓDIGO</span>
         </div>
         <p className="text-white/40 text-xs md:text-sm italic mb-10 md:mb-12 font-light px-4">Refina tu impacto. Domina tu realidad social.</p>
-        
-        <div className="flex flex-wrap justify-center gap-6 md:gap-10 text-[8px] md:text-[9px] font-black text-white/20 tracking-[0.2em] md:tracking-[0.4em] mb-10 md:mb-12 uppercase px-4">
-          <a href="#" className="hover:text-[#D4AF37] transition-colors">Privacidad</a>
-          <a href="#" className="hover:text-[#D4AF37] transition-colors">Términos</a>
-          <a href="#" className="hover:text-[#D4AF37] transition-colors">Contacto</a>
-        </div>
+      
 
         <p className="text-[8px] md:text-[9px] text-white/10 uppercase tracking-[0.15em] md:tracking-[0.2em] leading-relaxed max-w-2xl mx-auto italic px-4">
           © {new Date().getFullYear()} El Código. Todos los derechos reservados. <br className="hidden md:block" />
