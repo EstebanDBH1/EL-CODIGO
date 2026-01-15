@@ -140,9 +140,9 @@ const App: React.FC = () => {
 
         <div className="relative z-10 max-w-5xl">
           <h1 className="font-display font-black text-3xl sm:text-4xl md:text-6xl lg:text-[6.5rem] mb-6 md:mb-8 leading-[1.1] md:leading-[0.9] tracking-tighter text-balance">
-            “DOMINA EL ARTE <br className="hidden md:block" /> 
+            DOMINA EL ARTE <br className="hidden md:block" /> 
             <span className="text-gold-gradient italic">DE SER DESEADO</span> <br className="hidden md:block" /> 
-            SIN PERDER TU ESENCIA”
+            SIN PERDER TU ESENCIA
           </h1>
 
           <p className="text-white/60 text-base md:text-2xl max-w-3xl mx-auto mb-8 md:mb-12 font-light leading-relaxed px-2 md:px-0">
