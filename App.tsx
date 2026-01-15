@@ -173,10 +173,10 @@ const App: React.FC = () => {
 
           <div className="space-y-4 md:space-y-6 mb-12 md:mb-16">
             {[
-              "¿Experimentas bloqueos al intentar establecer una dinámica fluida con alguien que te cautiva?",
-              "¿Notas que tus interacciones digitales carecen de chispa y caen en la monotonía?",
-              "¿Deseas poseer la lucidez mental para saber cómo proyectar valor en cada gesto?",
-              "¿Te gustaría que el interés fluyera desde la otra parte hacia ti de forma orgánica?"
+              "¿Las conversaciones empiezan bien… pero se enfrían sin razón aparente?",
+              "¿Te responden, pero rara vez te buscan o continúan la interacción?",
+              "¿Sientes que das más interés del que recibes?",
+              "¿¿Terminas siendo percibido como “buen tipo”, pero no como una opción deseada?"
             ].map((q, i) => (
               <div key={i} className="glass-card p-6 md:p-8 rounded-[1.5rem] md:rounded-[2rem] flex items-start md:items-center gap-4 md:gap-6 group hover:border-[#D4AF37]/40 transition-all reveal-on-scroll">
                 <div className="w-8 h-8 md:w-10 md:h-10 rounded-full border border-white/10 flex items-center justify-center shrink-0 group-hover:bg-[#D4AF37] group-hover:text-black transition-all mt-1 md:mt-0">
