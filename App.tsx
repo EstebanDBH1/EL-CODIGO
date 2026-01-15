@@ -204,9 +204,9 @@ const App: React.FC = () => {
 
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-6 md:gap-12">
           {[
-            { icon: Sparkles, t: "Magnetismo Orgánico", d: "Proyecta una autoridad natural y segura, eliminando la necesidad de recurrir a comportamientos impostados." },
-            { icon: MessageCircle, t: "Dialéctica Digital", d: "Domina la comunicación textual mediante estructuras diseñadas para mantener la tensión y el misterio." },
-            { icon: Flame, t: "Tensión Involuntaria", d: "Activa los disparadores biológicos de interés mucho antes de iniciar cualquier conversación física." },
+            { icon: Sparkles, t: "Presencia que se nota", d: "Sabes qué decir, cuándo decirlo y cuándo callar, evitando respuestas frías o conversaciones que mueren rápido." },
+            { icon: MessageCircle, t: "Interés que aparece solo", d: "El interés empieza a venir del otro lado, sin perseguir ni empujar situaciones incómodas." },
+            { icon: Flame, t: "Dejas de buscar aprobación", d: "Pasas de intentar gustar a sentirte cómodo siendo elegido, tanto en persona como en mensajes." },
             { icon: Gem, t: "Estatus de Prestigio", d: "Reubica tu valor percibido en el mercado social, pasando de ser quien busca a ser el objetivo buscado." }
           ].map((item, i) => (
             <div key={i} className="flex flex-col sm:flex-row gap-6 md:gap-8 group reveal-on-scroll bg-white/[0.02] p-8 md:p-10 rounded-[2rem] md:rounded-[3rem] border border-white/5 hover:border-[#D4AF37]/20 transition-all">
