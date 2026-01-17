@@ -56,7 +56,7 @@ const EbookCover = ({ className = "" }: { className?: string }) => (
             CÓDIGO
           </h2>
           <div className="mt-2 md:mt-4 text-[7px] md:text-[9px] text-white/40 tracking-[0.2em] md:tracking-[0.3em] uppercase italic">
-            Arquitectura de la Atracción Primaria
+            Sistema de diminio social
           </div>
         </div>
 
@@ -67,9 +67,7 @@ const EbookCover = ({ className = "" }: { className?: string }) => (
             </div>
           </div>
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D4AF37]/30 to-transparent mb-3 md:mb-4" />
-          <p className="text-[8px] md:text-[10px] font-header text-white/30 tracking-widest uppercase">
-            Elite Intelligence Group
-          </p>
+          <p className="text-[8px] md:text-[10px] font-header text-white/30 tracking-widest uppercase"></p>
         </div>
       </div>
 
@@ -182,32 +180,31 @@ const App: React.FC = () => {
 
         <div className="relative z-10 max-w-5xl">
           <h1 className="font-display font-black text-3xl sm:text-4xl md:text-6xl lg:text-[6.5rem] mb-6 md:mb-8 leading-[1.1] md:leading-[0.9] tracking-tighter text-balance">
-            DOMINA EL ARTE <br className="hidden md:block" />
-            <span className="text-gold-gradient italic">
-              DE SER DESEADO
-            </span>{" "}
-            <br className="hidden md:block" />
-            SIN PERDER TU ESENCIA
+            MATA AL "CHICO BUENO". <br className="hidden md:block" />
+            <span className="text-gold-gradient italic">OBLÍGALAS</span>{" "}
+            <br className="hidden md:block" />A DESEARTE
           </h1>
 
           <p className="text-white/60 text-base md:text-2xl max-w-3xl mx-auto mb-8 md:mb-12 font-light leading-relaxed px-2 md:px-0">
-            ¿Has sentido alguna vez que la conexión empieza bien… pero algo se
+            Ellas huelen
             <span className="text-white font-bold italic underline decoration-[#D4AF37]">
               {" "}
-              enfría{" "}
+              huelen tu desesperación.
             </span>{" "}
-            sin saber por qué?
+            Saben que estás dispuesto a todo por una migaja de atención. Rompe
+            el ciclo. Deja de ser su "fan" y conviértete en su obsesión.
           </p>
 
           <p className="text-[#D4AF37] text-sm md:text-xl font-bold mb-10 md:mb-16 italic tracking-[0.1em] md:tracking-widest uppercase">
-         Aprende a proyectar seguridad y valor para que el interés fluya de forma natural.
+            Aprende a proyectar seguridad y valor para que el interés fluya de
+            forma natural.
           </p>
 
           <div className="flex flex-col items-center gap-8 md:gap-12 mb-10 md:mb-20">
             <EbookCover />
             <div className="mt-4 md:mt-8 w-full md:w-auto">
               <PrimaryCTA
-                text="¡QUIERO EL PROTOCOLO!"
+                text="Obtener El Código"
                 onClick={handleCheckout}
               />
               <p className="text-white/20 text-[9px] md:text-xs mt-4 md:mt-6 tracking-[0.2em] md:tracking-[0.3em] uppercase font-black italic">
@@ -279,23 +276,23 @@ const App: React.FC = () => {
           {[
             {
               icon: Sparkles,
-              t: "Presencia que se nota",
-              d: "Sabes qué decir, cuándo decirlo y cuándo callar, evitando respuestas frías o conversaciones que mueren rápido.",
+              t: "Presencia que se siente",
+              d: " Dejas de esforzarte por agradar. Empiezas a transmitir seguridad, calma y control… sin decirlo.",
             },
             {
               icon: MessageCircle,
-              t: "Interés que aparece solo",
-              d: "El interés empieza a venir del otro lado, sin perseguir ni empujar situaciones incómodas.",
+              t: "Conversaciones que enganchan",
+              d: "Aprendes qué decir, cuándo callar y cómo crear interés sin forzar nada.",
             },
             {
               icon: Flame,
-              t: "Dejas de buscar aprobación",
-              d: "Pasas de intentar gustar a sentirte cómodo siendo elegido, tanto en persona como en mensajes.",
+              t: "Atracción antes del contacto",
+              d: "Generas curiosidad y deseo antes de cualquier cita o encuentro.",
             },
             {
               icon: Gem,
-              t: "Estatus de Prestigio",
-              d: "Reubica tu valor percibido en el mercado social, pasando de ser quien busca a ser el objetivo buscado.",
+              t: "Te conviertes en el elegido",
+              d: " Dejas de buscar validación. Ahora son otros quienes intentan ganarse tu atención.",
             },
           ].map((item, i) => (
             <div
@@ -507,7 +504,7 @@ const App: React.FC = () => {
                 b: "Bono #4",
                 icon: Target,
               },
-              { t: "Membresía en la Logia VIP", b: "Bono #5", icon: Users2 },
+
               { t: "Soporte y Actualizaciones", b: "Bono #6", icon: Gem },
             ].map((b, i) => (
               <div
@@ -629,7 +626,7 @@ const App: React.FC = () => {
                   $
                 </span>
                 <span className="text-7xl sm:text-9xl md:text-[12rem] font-display font-black leading-none text-gold-gradient italic tracking-tighter shadow-text">
-                  14.99
+                  11.99
                 </span>
                 <span className="text-base md:text-3xl self-center mb-4 md:mb-24 text-white/20 font-black tracking-wider md:tracking-widest uppercase italic">
                   USD
