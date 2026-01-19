@@ -164,7 +164,7 @@ const App: React.FC = () => {
       {/* ⚠️ ADVERTENCIA */}
       <div className="bg-[#660000] text-white py-2.5 md:py-3 px-4 md:px-6 text-center text-[8px] md:text-xs font-black tracking-[0.3em] md:tracking-[0.5em] uppercase sticky top-0 w-full z-[100] border-b border-white/10 flex justify-center items-center gap-2 md:gap-4">
         <ShieldAlert className="w-3.5 h-3.5 md:w-4 md:h-4 text-[#D4AF37] animate-pulse" />
-        ⚠️ PROTOCOLO ACTIVADO: EL CÓDIGO
+        ⚠️ OFERTA POR TIEMPO LIMITADO
       </div>
 
       {/* Hero Section */}
